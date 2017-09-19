@@ -7,8 +7,9 @@ import java.awt.event.WindowEvent;
 public class MainFrame extends Frame {
     private Button bt1 = new Button("Exit");
     private Button bt2 = new Button("Add");
-private Label lab1=new Label("0");
-private int n=0;
+    private Label lab1 = new Label("0");
+    private int n = 0;
+
     public MainFrame() {
         init();
     }
@@ -18,8 +19,8 @@ private int n=0;
         this.setLayout(null);
         bt1.setBounds(50, 60, 100, 100);
         bt1.setBackground(new Color(70, 255, 213));
-        bt2.setBounds(100, 60, 100, 100);
-        lab1.setBounds(300,200,100,100);
+        bt2.setBounds(100, 300, 100, 100);
+        lab1.setBounds(300, 200, 100, 100);
         bt1.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
